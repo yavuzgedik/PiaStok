@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="card">
+    <form action="">
+        <div class="card-header">
+            Ürün Ekle
+        </div>
+        <div class="card-body">
+
+            <div class="mb-3">
+                <label for="ProductNameId">Ürün Adı</label>
+                <input type="text" class="form-control" id="ProductNameId" placeholder="Ürün Adını Giriniz" name="ProductName">
+            </div>
+
+            <div class="mb-3">
+                <label for="ProductPriceId">Ürün Fiyatı</label>
+                <input type="number" class="form-control" id="ProductPriceId" placeholder="Ürün Fiyatını Giriniz" name="ProductPrice">
+            </div>
+
+
+        </div>
+        <div class="card-footer">
+            <a href="/" class="btn btn-danger">İptal</a>
+            <button type="submit" class="btn btn-primary float-end">Kaydet</button>
+        </div>
+    </form>
+</div>
+
